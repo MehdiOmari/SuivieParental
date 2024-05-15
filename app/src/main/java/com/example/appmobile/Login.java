@@ -73,7 +73,7 @@ public class Login extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(Login.this, "succeful", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent();
+                    Intent i = new Intent();
 
                 }
                 else Toast.makeText(Login.this, "failed", Toast.LENGTH_SHORT).show();
