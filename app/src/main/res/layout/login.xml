@@ -71,7 +71,8 @@
         android:hint="nom et prenom"
         android:padding="12dp"
         android:singleLine="true"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:textColor="@color/black"/>
 
     <!-- Edit text provided to write
           password (according to instagram UI)-->
@@ -104,6 +105,7 @@
         android:padding="12dp"
         android:singleLine="true"
         android:textSize="14sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@id/passewordedit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameedit" />
@@ -136,6 +138,7 @@
         android:padding="12dp"
         android:singleLine="true"
         android:textSize="14sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passtxt" />
@@ -144,14 +147,15 @@
         android:id="@+id/button"
         android:layout_width="120dp"
         android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="29dp"
         android:background="@drawable/btnstyle"
         android:text="Login"
         android:textColor="@color/black"
         android:textSize="25dp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"/>
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
