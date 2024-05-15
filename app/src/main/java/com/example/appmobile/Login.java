@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity {
                     Intent intent = new Intent();
 
                 }
-                else Toast.makeText(Login.this, "failed", Toast.LENGTH_SHORT).show();
+                else Toast.makeText(Login.this, "failed authentification", Toast.LENGTH_SHORT).show();
             }
         });
     }
